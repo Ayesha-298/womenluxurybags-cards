@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    
+    
+
+}
+.container p{
+    margin-left: 55px;
+    
+    
+}
+.container p b{
+    font-size: 30px;
+
+}
+
+.row-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding-left: 350px;
+    
+}
+
+.card {
+    flex: 1; /* Adjust as needed */
+    margin: 0; /* Adjust spacing between cards as needed */
+    text-align: center;
+
+}
+
+.card img {
+    width: 98%; /* Adjust as needed */
+    height: 300px;
+     /* Maintain aspect ratio */
+    background-color: lightgray; /* Or use space-between, space-evenly, or flex-start as per your layout preference */
+
+}
+
+.card h3 {
+    margin-top: 5px;
+    align-items: start;
+    text-align:start ;
+    
+}
